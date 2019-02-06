@@ -1,6 +1,6 @@
 # Bidding Game - POSIX (C)
 
->The Bidding Game, a game consisted of (4) clients and (1) server, using C POSIX, to interract between 4 threads. 
+>The Bidding Game, a client-server game implementation consisted of (4) clients and the server.C POSIX was used to interract with the threads. 
 
 #### Server initially sets up an ip,port and balance for the game to run. 
 ```
