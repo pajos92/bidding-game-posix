@@ -15,9 +15,9 @@ $ ./client 127.0.0.1:9999
 ```
 
 ### Explanation
-* _Everyone starts with the balance set by the server and takes their place on the terrain. Terrain consists of an 9x9 array with every player settled on every corner. The so called desired object/prize is located in the middle of the terrain, or terrain[4,4]._
+* _Everyone starts with the balance set by the server and takes their place on the terrain. Terrain consists of an **9x9** array with every player settled on every corner. The so called desired object/prize is located in the middle of the terrain, or terrain[4,4]._
 * _Every player makes a bid on every round without any knowledge of their opponents' choices or strategy._
 * _When everyone finishes bidding, a round ends and a winner for this rounds is announced. This player comes one step closer to the prize until someone actually matches the prize's position._
-* _Ties are being held by an advantage point, which changes on every round consecutively for every player._
+* _Ties are being held by an **advantage point**, which changes on every round consecutively for every player._
 * _Player who's closer to the advantage point **wins** the tie._
 
