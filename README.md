@@ -2,10 +2,10 @@
 
 >The Bidding Game, a game consisted of (4) clients and (1) server, using C POSIX, to interract between 4 threads. 
 
-###Server initially sets up an ip,port and balance for the game to run. 
+##Server initially sets up an ip,port and balance for the game to run. 
 >./server 127.0.0.1 9999 1000
 
-###Every client connects to this particular ip address:port and when (4) clients connect, the game starts. 
+##Every client connects to this particular ip address:port and when (4) clients connect, the game starts. 
 >./client 127.0.0.1:9999
 
 Everyone starts with the balance set by the server and takes their place on the terrain. 
