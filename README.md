@@ -4,11 +4,13 @@
 
 #### Server initially sets up an ip,port and balance for the game to run. 
 ```
+gcc server.c -o server
 ./server 127.0.0.1 9999 1000
 ```
 
 #### Every client connects to this particular ip address:port and when (4) clients connect, the game starts. 
 ```
+gcc client.c -o client
 ./client 127.0.0.1:9999
 ```
 
