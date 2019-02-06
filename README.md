@@ -12,8 +12,8 @@
 ./client 127.0.0.1:9999
 ```
 
-##### Explanation
-*Everyone starts with the balance set by the server and takes their place on the terrain. 
+### Explanation
+* Everyone starts with the balance set by the server and takes their place on the terrain. 
 Terrain consists of an 9x9 array with every player settled on every corner. 
 The so called desired object/prize is located in the middle of the terrain, or terrain[4,4]. 
 Every player makes a bid on every round without any knowledge of their opponents' choices or strategy. 
